@@ -1,0 +1,10 @@
+{
+   "type" : "record",
+   "namespace" : "test.avro",
+   "name" : "grade",
+   "fields" :
+   [
+      { "name" : "student", "type": "string" },
+      { "name" : "maxscore", "type": "int" }
+   ]
+}
